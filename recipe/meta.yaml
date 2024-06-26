@@ -1,5 +1,5 @@
 {% set name = "dask-ee" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dask_ee-{{ version }}.tar.gz
-  sha256: d168817f0bc7d99841b3572ca32d9615489c585b61198f49886077375f5d6613
+  sha256: 86383caacd58cd20ce85c69357daff47a511396a00017e6b580670fa7751504a
 
 build:
   noarch: python
